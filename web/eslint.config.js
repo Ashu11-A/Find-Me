@@ -1,8 +1,0 @@
-export default {
-    extends: "next/core-web-vitals",
-    rules: {
-      'indent': ['error', 2],
-      'semi': ['error', 'never'],
-      'quotes': ['error', 'single']
-    }
-}

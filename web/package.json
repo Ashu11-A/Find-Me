@@ -9,6 +9,8 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@capacitor/geolocation": "^6.0.0",
+    "@pikaz/location": "^1.0.10",
     "@radix-ui/react-icons": "^1.3.0",
     "@radix-ui/react-slot": "^1.1.0",
     "@react-three/drei": "^9.109.2",
@@ -16,6 +18,7 @@
     "@types/three": "^0.166.0",
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.1",
+    "haversine-distance": "^1.2.3",
     "next": "14.2.5",
     "react": "^18",
     "react-dom": "^18",
@@ -24,13 +27,17 @@
     "three": "^0.166.1"
   },
   "devDependencies": {
+    "@eslint/js": "^9.7.0",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
     "eslint": "^8",
     "eslint-config-next": "14.2.5",
+    "eslint-plugin-react": "^7.35.0",
+    "globals": "^15.8.0",
     "postcss": "^8",
     "tailwindcss": "^3.4.1",
-    "typescript": "^5"
+    "typescript": "^5",
+    "typescript-eslint": "^7.17.0"
   }
 }
